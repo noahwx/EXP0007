@@ -1,0 +1,249 @@
+@import url("https://use.typekit.net/kwg0dfg.css");
+
+* {
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navagation Styles */
+
+.Nav {
+  position: relative;
+  align-items: center;
+  left: 1vw;
+  margin-top: 1vh;
+
+  width: 15vw;
+  height: 80vh;
+}
+
+.logo {
+  position: relative;
+  margin-bottom: 5vh;
+  margin-left: 1vw;
+  height: 10vh;
+  width: 10vh;
+
+  transition: transform 500ms ease;
+}
+
+.NavLinks {
+  font-weight: 400;
+}
+
+.NavLink {
+  position: relative;
+  float: left;
+  color: inherit;
+  text-decoration: none;
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+  padding: 10px;
+
+  font-size: clamp(1.5rem, 2vw, 1.5rem);
+
+  transition: opacity 500ms ease, background-color 500ms ease, border-radius 250ms ease, font-style 250ms ease, font-weight 250ms ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.NavLinks:hover > .NavLink {
+  opacity: 0.3;
+}
+
+.NavLinks:hover > .NavLink:hover {
+  background-color: rgba(235, 235, 235, 1);
+  opacity: 1;
+  border-radius: 25px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Home Styles */
+
+.container {
+  position: absolute;
+  top: 0;
+  margin-left: 20vw;
+
+  height: 100vh;
+  width: 55vw;
+
+  border-right: 2px solid #222;
+  border-left: 2px solid #222;
+}
+
+.scontainer {
+  position: absolute;
+  top: 2vh;
+  margin-left: 78vw;
+
+  height: 5vh;
+  width: 20vw;
+
+  border-radius: 25px;
+  border: 2px solid #222;
+
+  overflow: hidden;
+}
+
+.searchbox {
+  height: 1vh;
+  width: 20vw;
+  padding: 1em;
+
+  font-size: clamp(1rem, 2vw, 1rem);
+
+  overflow: hidden;
+}
+
+.tcontainer {
+  position: absolute;
+  top: 10vh;
+  margin-left: 78vw;
+
+  height: 50vh;
+  width: 20vw;
+
+  border-radius: 25px;
+  border: 2px solid #222;
+  overflow: hidden;
+}
+
+.page-subtitle {
+  padding: 10px;
+  width: 20vw;
+  border-bottom: 2px solid #222;
+  font-size: clamp(1.5rem, 2vw, 1.5rem);
+}
+
+.fpcontainer {
+  position: absolute;
+  top: 63vh;
+  margin-left: 78vw;
+
+  height: 20vh;
+  width: 20vw;
+
+  border-radius: 25px;
+  border: 2px solid #222;
+
+  overflow: hidden;
+}
+
+.page-title {
+  position: absolute;
+  top: 1vh;
+  margin-left: 22vw;
+  padding: 0.2em;
+}
+
+/* Trending Styles */
+
+.trendNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12vh;
+}
+
+.trendLinks {
+  font-size: clamp(1.5rem, 2vw, 1.5rem);
+  font-weight: 500;
+}
+
+.trendLink {
+  padding: 10px;
+  margin-left: 2vw;
+  text-decoration: none;
+
+  color: inherit;
+
+  transition: background-color 500ms ease, border-radius 250ms ease;
+}
+
+.trendLinks:hover > .trendLink {
+  opacity: 0.3;
+}
+
+.trendLinks:hover > .trendLink:hover {
+  background-color: rgba(235, 235, 235, 1);
+  opacity: 1;
+  border-radius: 25px;
+  color: #39A0ED;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.trendLink.active {
+  border-bottom: 2px solid #222;
+}
+
+.onetrend {
+  position: absolute;
+  top: 20vh;
+
+  height: 40vh;
+  width: 55vw;
+
+  background-color: #39A0ED;
+}
+
+.trend {
+  position: relative;
+  top: 50vh;
+  margin: 0  auto;
+  margin-bottom: 3vh;
+
+  height: 20vh;
+  width: 50vw;
+
+  border-radius: 25px;
+
+  background-color: #39A0ED;
+}
+
+/* Notification Styles */
+
+.nNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12vh;
+}
+
+.nNavLinks {
+  font-size: clamp(1.5rem, 2vw, 1.5rem);
+  font-weight: 500;
+}
+
+.nNavLink {
+  padding: 10px;
+  margin-left: 2vw;
+  text-decoration: none;
+
+  color: inherit;
+
+  transition: background-color 500ms ease, border-radius 250ms ease;
+}
+
+.nNavLinks:hover > .nNavLink {
+  opacity: 0.3;
+}
+
+.nNavLinks:hover > .nNavLink:hover {
+  background-color: rgba(235, 235, 235, 1);
+  opacity: 1;
+  border-radius: 25px;
+  color: #39A0ED;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.nNavLink.active {
+  border-bottom: 2px solid #222;
+}
