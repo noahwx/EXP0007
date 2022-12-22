@@ -8,6 +8,7 @@ import News from './pages/trend/News';
 import Sports from './pages/trend/Sports';
 import Entertainment from './pages/trend/Entertainment';
 import Verified from './pages/notifications/Verified';
+import Priority from './pages/notifications/Priority';
 
 const Main = () => {
     return (
@@ -21,6 +22,7 @@ const Main = () => {
             <Route exact path='/pages/trend/Sports' element={<Sports />}/>
             <Route exact path='/pages/trend/Entertainment' element={<Entertainment />}/>
             <Route exact path='/pages/notifications/Verified' element={<Verified />}/>
+            <Route exact path='/pages/notifications/Priority' element={<Priority />}/>
         </Routes>
     );
 }

@@ -10,6 +10,7 @@ const Notifications = () => {
                     <div className='nNavLinks'>
                         <NavLink to='/pages/Notifications' className='nNavLink'>Notifications</NavLink>
                         <NavLink to='/pages/notifications/Verified' className='nNavLink'>Verified</NavLink>
+                        <NavLink to='/pages/notifications/Priority' className='nNavLink'>Priority</NavLink>
                     </div>
                 </div>
             </div>

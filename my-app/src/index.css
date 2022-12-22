@@ -228,7 +228,7 @@
 
   color: inherit;
 
-  transition: background-color 500ms ease, border-radius 250ms ease;
+  transition: background-color 500ms ease, border-radius 250ms ease, border-bottom 500ms ease;
 }
 
 .nNavLinks:hover > .nNavLink {

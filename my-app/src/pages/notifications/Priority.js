@@ -1,7 +1,7 @@
 import '../../index.css';
 import { NavLink } from 'react-router-dom';
 
-const Verified = () => {
+const Priority = () => {
     return (
         <>
         <h1 className='page-title'>Notifications</h1>
@@ -18,4 +18,4 @@ const Verified = () => {
     );
 }
  
-export default Verified;
+export default Priority;
